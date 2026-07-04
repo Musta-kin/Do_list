@@ -1,36 +1,7 @@
-📝 Do_list - Full-Stack To-Do List App
+📝 Dynamic Theme Switching & Task Management
 
-A full-stack To-Do List application built with React for the frontend and Node.js + Express for the backend.
-Manage your tasks efficiently with add, edit, delete, and mark-as-complete features.
-🧩 Features
-    ✅ Add, edit, and delete tasks
-    ✅ Mark tasks as complete/incomplete
-    ✅ Persistent storage using Node.js + Express + JSON / database
-    💻 Responsive design for mobile and desktop
-    ⚡ Smooth UI built with React
+You can personalize the look of your task manager with 10 distinct color themes. The core task management features are built right in for efficient daily use.
 
-⚙️ Tech Stack
-
-Frontend:
-    React.js
-    HTML5, CSS3, JavaScript
-
-Development Tools:
-    Vite for fast React setup
-    ESLint for code quality
-
-my-app/ │ ├── node_modules/
-│ ├── public/
-│ └── index.html
-│ ├── src/
-│ ├── assets/
-│ │ │ ├── components/
-│ │
-│ ├── App.css
-│ ├── App.jsx
-│ ├── index.css
-│ ├── main.jsx
-│ │ │ └── utils/
-├── package.json
-├── package-lock.json
-└── README.md
+* 10 Built-in Themes: A dropdown selector lets you instantly switch between themes like Ocean, Sunset, Forest, Lavender, and more. Each theme changes the background, card colors, accent colors, and text styles throughout the app.
+* Complete Task Control: You can add new tasks, mark them as complete with a checkbox, edit task text inline, or delete tasks. The task list updates in real-time, and all your tasks are saved locally in your browser.
+* Asymmetric & Responsive Design: The task cards use varied border radii and a responsive grid layout that adapts to different screen sizes. Hover effects on cards provide visual feedback, making the interface feel alive and interactive.
